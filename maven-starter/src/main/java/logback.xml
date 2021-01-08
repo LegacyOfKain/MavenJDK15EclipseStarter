@@ -6,12 +6,12 @@
         </encoder>
     </appender>
     
-    <!--  
+
     <logger name="mavenstarter" level="DEBUG">
         <appender-ref ref="STDOUT"/>
     </logger>
-    -->
-    <root level="debug">
+
+    <root level="error">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>
