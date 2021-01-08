@@ -9,7 +9,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        logger.debug("Hello from Logback in maven starter java standalone project");
+        logger.debug("Hello from Logback in maven starter java standalone project ");
 
         logger.debug("getNumber() : {}", getNumber());
         
