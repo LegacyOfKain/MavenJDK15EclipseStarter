@@ -34,3 +34,7 @@ After changing the pom.xml ---> need to update the Maven project using rt click 
 Then you have to Clean and Build
 
 Basel NBS proxy works better than Cambridge NBS proxy
+
+Maven pom.xml - run configurations  -
+1. If pom.xml has refrences to artifacts in the workspace then select > Resolve Workspace artifacts 
+2. change jre to jdk (J2SE) in the JRE tab
